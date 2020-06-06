@@ -1,5 +1,5 @@
 # Ninja Moves
-Ninja Moves is a datapack to allow crawling, climbing and smooth landing.
+Ninja Moves is a datapack to allow crawling, climbing, smooth landing and wall tricks.
 
 # Requires 
 - Minecraft 1.15+
