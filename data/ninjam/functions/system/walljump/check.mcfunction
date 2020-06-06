@@ -1,0 +1,2 @@
+execute rotated ~ 0 positioned ^ ^ ^0.6 align xyz positioned ~.5 ~.4 ~.5 unless block ~ ~ ~ #ninjam:climbable at @s run function ninjam:system/walljump/spawn
+execute rotated ~ 0 positioned ^ ^ ^0.6 align xyz positioned ~.5 ~.4 ~.5 if block ~ ~ ~ #ninjam:climbable unless block ~ ~-1 ~ #ninjam:climbable unless block ~ ~1 ~ #ninjam:climbable at @s run function ninjam:system/walljump/spawn

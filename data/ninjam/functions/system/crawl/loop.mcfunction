@@ -1,0 +1,2 @@
+execute if entity @s[predicate=ninjam:sneaking,x_rotation=20..70] unless entity @e[type=minecraft:shulker,tag=ninjam_crawling,distance=..1.65] run function ninjam:system/crawl/check
+execute as @e[type=minecraft:shulker,tag=ninjam_crawling,distance=..5] at @s unless entity @a[distance=..1.65] run function ninjam:system/crawl/despawn

@@ -1,0 +1,1 @@
+execute if entity @a run function ninjam:loop
