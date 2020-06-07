@@ -9,7 +9,7 @@ scoreboard players set ForceDestroy NINJAM_Option 0
 # Smooth Landing
 # 0 : Disable
 # 1 : Enable
-scoreboard players set SmoothLanding NINJAM_Option 1
+scoreboard players set SoftLanding NINJAM_Option 1
 
 
 # Crawl

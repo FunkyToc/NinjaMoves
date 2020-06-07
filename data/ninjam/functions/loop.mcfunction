@@ -1,4 +1,4 @@
-execute if score SmoothLanding NINJAM_Option matches 1 as @a at @s run function ninjam:system/smoothlanding/loop
+execute if score SoftLanding NINJAM_Option matches 1 as @a at @s run function ninjam:system/softlanding/loop
 execute if score Crawl NINJAM_Option matches 1 as @a at @s run function ninjam:system/crawl/loop
 execute if score WallClimb NINJAM_Option matches 1 as @a at @s run function ninjam:system/wallclimb/loop
 execute if score WallJump NINJAM_Option matches 1 as @a at @s run function ninjam:system/walljump/loop

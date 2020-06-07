@@ -45,4 +45,4 @@ tag @s[tag=ninjam_rolling] add ninjam_rollin
 tp @s[tag=ninjam_rolling_1] ~ ~ ~ ~ ~15
 
 # reset
-execute as @s[tag=ninjam_rolling_end] run function ninjam:system/smoothlanding/roolclear
+execute as @s[tag=ninjam_rolling_end] run function ninjam:system/softlanding/roolclear

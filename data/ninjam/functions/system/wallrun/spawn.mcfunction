@@ -5,5 +5,6 @@ scoreboard players operation @e[type=area_effect_cloud,tag=ninjam_running_init,s
 tag @e[type=area_effect_cloud,tag=ninjam_running_init] remove ninjam_running_init
 
 # max run 3 block
+tag @s[tag=ninjam_wall2] add ninjam_wall3
 tag @s[tag=ninjam_wall1] add ninjam_wall2
 tag @s add ninjam_wall1

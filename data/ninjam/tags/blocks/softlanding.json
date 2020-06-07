@@ -1,8 +1,9 @@
 {
-    "values": [
-        "#minecraft:wool",
-        "#minecraft:leaves",
-        "minecraft:sponge",
-        "minecraft:wet_sponge"
-    ]
+	"values": [
+		"#minecraft:wool",
+		"#minecraft:leaves",
+		
+		"minecraft:sponge",
+		"minecraft:wet_sponge"
+	]
 }
