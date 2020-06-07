@@ -22,17 +22,17 @@ execute as @s[tag=ninjam_rolling_8] rotated ~ 0 run tp @s ^ ^ ^.1
 tag @s[tag=ninjam_rolling_6] add ninjam_rolling_7
 tag @s[tag=ninjam_rolling_7] remove ninjam_rolling_6
 tp @s[tag=ninjam_rolling_7] ~ ~ ~ ~ ~15
-execute as @s[tag=ninjam_rolling_7] rotated ~ 0 run tp @s ^ ^ ^.15
+execute as @s[tag=ninjam_rolling_7] rotated ~ 0 run tp @s ^ ^ ^.14
 
 tag @s[tag=ninjam_rolling_5] add ninjam_rolling_6
 tag @s[tag=ninjam_rolling_6] remove ninjam_rolling_5
 tp @s[tag=ninjam_rolling_6] ~ ~ ~ ~ ~25
-execute as @s[tag=ninjam_rolling_6] rotated ~ 0 run tp @s ^ ^ ^.15
+execute as @s[tag=ninjam_rolling_6] rotated ~ 0 run tp @s ^ ^ ^.14
 
 tag @s[tag=ninjam_rolling_4] add ninjam_rolling_5
 tag @s[tag=ninjam_rolling_5] remove ninjam_rolling_4
 tp @s[tag=ninjam_rolling_5] ~ ~ ~ ~ ~25
-execute as @s[tag=ninjam_rolling_5] rotated ~ 0 run tp @s ^ ^ ^.15
+execute as @s[tag=ninjam_rolling_5] rotated ~ 0 run tp @s ^ ^ ^.14
 
 tag @s[tag=ninjam_rolling_3] add ninjam_rolling_4
 tag @s[tag=ninjam_rolling_4] remove ninjam_rolling_3
