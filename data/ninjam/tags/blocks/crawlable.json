@@ -5,7 +5,6 @@
 		"minecraft:void_air",
 		"minecraft:structure_void",
 		"minecraft:water",
-
 		"#minecraft:corals",
 		"#minecraft:crops",
 		"#minecraft:saplings",
@@ -19,8 +18,7 @@
 		"#minecraft:doors",
 		"#minecraft:trapdoors",
 		"#minecraft:walls",
-		"#minecraft:wooden_pressure_plate",
-
+		"#minecraft:wooden_pressure_plates",
 		"minecraft:stone_pressure_plate",
 		"minecraft:light_weighted_pressure_plate",
 		"minecraft:heavy_weighted_pressure_plate",
@@ -36,7 +34,6 @@
 		"minecraft:tripwire",
 		"minecraft:tripwire_hook",
 		"minecraft:redstone_wire",
-
 		"minecraft:grass",
 		"minecraft:tall_grass",
 		"minecraft:vine",
@@ -65,7 +62,6 @@
 		"minecraft:dead_fire_coral",
 		"minecraft:dead_horn_coral",
 		"minecraft:dead_bubble_coral",
-
 		"minecraft:iron_bars",
 		"minecraft:ladder",
 		"minecraft:scaffolding",
@@ -81,7 +77,6 @@
 		"minecraft:jungle_fence",
 		"minecraft:birch_fence",
 		"minecraft:dark_oak_fence",
-
 		"minecraft:glass_pane",
 		"minecraft:black_stained_glass",
 		"minecraft:blue_stained_glass",

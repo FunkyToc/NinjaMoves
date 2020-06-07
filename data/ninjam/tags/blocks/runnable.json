@@ -5,7 +5,6 @@
 		"minecraft:void_air",
 		"minecraft:structure_void",
 		"minecraft:water",
-
 		"#minecraft:corals",
 		"#minecraft:crops",
 		"#minecraft:saplings",
@@ -19,8 +18,7 @@
 		"#minecraft:doors",
 		"#minecraft:trapdoors",
 		"#minecraft:walls",
-		"#minecraft:wooden_pressure_plate",
-
+		"#minecraft:wooden_pressure_plates",
 		"minecraft:stone_pressure_plate",
 		"minecraft:light_weighted_pressure_plate",
 		"minecraft:heavy_weighted_pressure_plate",
@@ -36,7 +34,6 @@
 		"minecraft:tripwire",
 		"minecraft:tripwire_hook",
 		"minecraft:redstone_wire",
-
 		"minecraft:grass",
 		"minecraft:tall_grass",
 		"minecraft:vine",
