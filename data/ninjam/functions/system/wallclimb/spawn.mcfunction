@@ -3,4 +3,4 @@ execute if score ForceDestroy NINJAM_Option matches 1 run setblock ~ ~-1 ~ minec
 execute align xyz run summon minecraft:area_effect_cloud ~0.5 ~-0.5 ~0.5 {Tags:["ninjam_climbing","ninjam_climbing_init"],Duration:3609}
 scoreboard players operation @e[type=area_effect_cloud,tag=ninjam_climbing_init,sort=nearest,limit=1] NINJAM_Option = MaxHoldTime NINJAM_Option
 tag @e[type=area_effect_cloud,tag=ninjam_climbing_init] remove ninjam_climbing_init
-execute if score ParkourParticules NINJAM_Option matches 1 rotated ~ 0 positioned ^ ^ ^0.4 run function ninjam:system/wallclimb/particule
+execute if score ParkourParticules NINJAM_Option matches 1 rotated ~ 0 positioned ^ ^ ^0.3 run function ninjam:system/wallclimb/particule
