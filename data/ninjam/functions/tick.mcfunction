@@ -1,1 +1,1 @@
-execute if entity @a run function ninjam:loop
+execute if score McVersion fktool matches 115.. if entity @a run function ninjam:loop

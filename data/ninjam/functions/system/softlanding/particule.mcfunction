@@ -1,0 +1,1 @@
+particle minecraft:dust 0.8 0.8 0.8 2 ~ ~0.02 ~ 0.3 0.2 0.3 0.01 3
