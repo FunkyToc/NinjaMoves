@@ -1,1 +1,1 @@
-execute anchored eyes rotated ~ 0 positioned ^ ^ ^0.6 positioned ~ ~-0.8 ~ align xyz positioned ~0.5 ~0.4 ~0.5 unless block ~ ~1 ~ #minecraft:slabs[type=top] unless block ~ ~1 ~ minecraft:air if block ~ ~ ~ #ninjam:crawlable_1.15 run function ninjam:system/crawl/spawn
+execute anchored eyes rotated ~ 0 positioned ^ ^ ^0.6 positioned ~ ~-1 ~ align xyz positioned ~0.5 ~0.4 ~0.5 unless block ~ ~1 ~ #minecraft:slabs[type=top] unless block ~ ~1 ~ minecraft:air if block ~ ~ ~ #ninjam:crawlable_1.15 run function ninjam:system/crawl/spawn
