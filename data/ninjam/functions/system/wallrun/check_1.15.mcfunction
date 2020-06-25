@@ -1,2 +1,0 @@
-execute rotated ~ 0 positioned ^.6 ^ ^ align xyz positioned ~.5 ~.4 ~.5 unless block ~ ~ ~ #ninjam:climbable_1.15 at @s run function ninjam:system/wallrun/spawn
-execute rotated ~ 0 positioned ^-.6 ^ ^ align xyz positioned ~.5 ~.4 ~.5 unless block ~ ~ ~ #ninjam:climbable_1.15 at @s run function ninjam:system/wallrun/spawn
