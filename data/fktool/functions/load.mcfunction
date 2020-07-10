@@ -27,6 +27,8 @@ scoreboard players set #10min fktool 12000
 scoreboard players set #20min fktool 24000
 scoreboard players set #30min fktool 36000
 scoreboard players set #60min fktool 72000
+# check conflict
+function fktool:conflict
 # init
 function fktool:mcv/get_mcv
 function fktool:rand/get_rand
