@@ -45,7 +45,7 @@ scoreboard players set Crawl NINJAM_Option 1
 # 1 : Enable
 scoreboard players set WallClimb NINJAM_Option 1
 
-# MaxHoldTime Duration (ticks)
+# Max hold time (ticks)
 # Maximum time you can grab the hold
 # Min-Max : 1 - 3600
 scoreboard players set MaxHoldTime NINJAM_Option 60
@@ -57,7 +57,7 @@ scoreboard players set MaxHoldTime NINJAM_Option 60
 # 1 : Enable
 scoreboard players set WallJump NINJAM_Option 1
 
-# MaxWallJumpTime Duration (ticks)
+# WallJump momentum (ticks)
 # momentum duration to use double jump
 # Min-Max : 1 - 80
 scoreboard players set MaxWallJumpTime NINJAM_Option 6
@@ -69,7 +69,7 @@ scoreboard players set MaxWallJumpTime NINJAM_Option 6
 # 1 : Enable
 scoreboard players set WallRun NINJAM_Option 1
 
-# MaxWallJumpTime Duration (ticks)
+# WallRun momentum (ticks)
 # momentum duration to use a parallel wall
 # Min-Max : 1 - 80
 scoreboard players set MaxWallRunTime NINJAM_Option 12
