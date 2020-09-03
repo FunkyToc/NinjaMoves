@@ -1,4 +1,6 @@
 scoreboard objectives add NINJAM_Option dummy {"text":"NINJAM_Option","color":"aqua"}
+scoreboard objectives add NINJAM_Jump dummy {"text":"NINJAM_Jump","color":"aqua"}
+scoreboard objectives add NINJAM_Run dummy {"text":"NINJAM_Run","color":"aqua"}
 
 # properties
 function ninjam:properties
@@ -10,6 +12,8 @@ execute if score MaxHoldTime NINJAM_Option matches 3601.. run scoreboard players
 execute if score MaxHoldTime NINJAM_Option matches ..0 run scoreboard players set MaxHoldTime NINJAM_Option 1
 execute if score MaxWallJumpTime NINJAM_Option matches 81.. run scoreboard players set MaxWallJumpTime NINJAM_Option 80
 execute if score MaxWallJumpTime NINJAM_Option matches ..0 run scoreboard players set MaxWallJumpTime NINJAM_Option 1
+execute if score MaxWallRunTime NINJAM_Option matches 3601.. run scoreboard players set MaxWallRunTime NINJAM_Option 3600
+execute if score MaxWallRunTime NINJAM_Option matches ..0 run scoreboard players set MaxWallRunTime NINJAM_Option 1
 
 # 1.15- warning
 execute if score McVersion fktool matches ..11400 run tellraw @a ["",{"text":"Ninja Moves","bold":true,"color":"gold","hoverEvent":{"action":"show_text","value":"Develop with love by FunkyToc"}},{"text":" can not be enabled ! "},{"text":"Minecraft 1.15+ required !"}]

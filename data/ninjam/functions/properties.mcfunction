@@ -73,7 +73,12 @@ scoreboard players set MaxWallJumpTime NINJAM_Option 6
 # 1 : Enable
 scoreboard players set WallRun NINJAM_Option 1
 
+# WallRun duration (ticks)
+# run max duration to walk on a parallel wall
+# Min-Max : 1 - 3600
+scoreboard players set MaxWallRunTime NINJAM_Option 20
+
 # WallRun momentum (ticks)
 # momentum duration to use a parallel wall
 # Min-Max : 1 - 80
-scoreboard players set MaxWallRunTime NINJAM_Option 12
+scoreboard players set MaxWallRunReact NINJAM_Option 5

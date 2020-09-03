@@ -1,5 +1,5 @@
 # ninjam_softlanding
-execute as @s[predicate=ninjam:on_air,predicate=ninjam:sneaking,scores={NINJAM_Option=14..}] if block ~ ~-1 ~ minecraft:air run function ninjam:system/softlanding/check
+execute as @s[predicate=ninjam:on_air,predicate=ninjam:sneaking,scores={NINJAM_Jump=14..}] if block ~ ~-1 ~ minecraft:air run function ninjam:system/softlanding/check
 effect give @s[tag=ninjam_softlandingpro] minecraft:resistance 1 2 true
 effect give @s[tag=ninjam_softlanding] minecraft:resistance 1 0 true
 
