@@ -48,7 +48,7 @@ scoreboard players set WallClimb NINJAM_Option 1
 # Max hold time (ticks)
 # Maximum time you can grab the hold
 # Min-Max : 1 - 3600
-scoreboard players set MaxHoldTime NINJAM_Option 60
+scoreboard players set MaxHoldTime NINJAM_Option 100
 
 
 # WallJump
