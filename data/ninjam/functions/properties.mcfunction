@@ -38,6 +38,10 @@ scoreboard players set SoftLanding NINJAM_Option 1
 # 1 : Enable
 scoreboard players set Crawl NINJAM_Option 1
 
+# Max crawl shulker duration (ticks)
+# Maximum time you can grab the hold
+# Min-Max : 1 - 3600
+scoreboard players set MaxShulkerTime NINJAM_Option 60
 
 # WallClimb
 # Sneak to grab a corner of wall
