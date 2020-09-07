@@ -1,0 +1,1 @@
+playsound minecraft:entity.player.attack.sweep player @a[distance=..8] ~ ~ ~ .06 .5 1

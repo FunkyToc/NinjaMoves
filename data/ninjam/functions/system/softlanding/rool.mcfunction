@@ -64,5 +64,6 @@ tag @s[tag=ninjam_rolling,tag=!ninjam_rollin] add ninjam_rolling_1
 tag @s[tag=ninjam_rolling] add ninjam_rollin
 tp @s[tag=ninjam_rolling_1] ~ ~ ~ ~ ~15
 execute if score ParkourParticules NINJAM_Option matches 1 as @s[tag=ninjam_rolling_1] run function ninjam:system/softlanding/particule
+execute if score ParkourSounds NINJAM_Option matches 1 as @s[tag=ninjam_rolling_1] run function ninjam:system/softlanding/sound
 
 execute as @s[tag=ninjam_rolling_end] run function ninjam:system/softlanding/roolclear

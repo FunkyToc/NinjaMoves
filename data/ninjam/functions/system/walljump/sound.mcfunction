@@ -1,0 +1,1 @@
+playsound minecraft:entity.player.small_fall player @a[distance=..8] ~ ~ ~ .1 1 1

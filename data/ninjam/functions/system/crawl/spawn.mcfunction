@@ -4,5 +4,7 @@ execute if score McVersion fktool matches 11600.. at @s align xyz run tp @e[type
 scoreboard players operation @e[type=minecraft:shulker,tag=ninjam_crawling_init,sort=nearest,limit=1] NINJAM_Option = MaxShulkerTime NINJAM_Option
 tag @e[type=minecraft:shulker,tag=ninjam_crawling,tag=ninjam_crawling_init] remove ninjam_crawling_init
 function ninjam:system/smoothlanding/roolclear
+execute at @s if score ParkourParticules NINJAM_Option matches 1 run function ninjam:system/crawl/particule
+execute at @s if score ParkourSounds NINJAM_Option matches 1 run function ninjam:system/crawl/sound
 execute at @s run function ninjam:system/crawl/slip
 schedule function ninjam:system/crawl/slip_clear 15t

@@ -18,12 +18,17 @@
 # 1 : Enable
 scoreboard players set ForceDestroy NINJAM_Option 0
 
-
 # Step Particules
 # Show / hide parkour particules
 # 0 : Disable
 # 1 : Enable
 scoreboard players set ParkourParticules NINJAM_Option 1
+
+# Step Sounds
+# Play / mute parkour sounds
+# 0 : Disable
+# 1 : Enable
+scoreboard players set ParkourSounds NINJAM_Option 1
 
 
 # Smooth Landing
@@ -74,7 +79,7 @@ scoreboard players set MaxWallJumpTime NINJAM_Option 6
 scoreboard players set WallRun NINJAM_Option 1
 
 # WallRun duration (ticks)
-# run max duration to walk on a parallel wall
+# max running duration on a parallel wall
 # Min-Max : 1 - 3600
 scoreboard players set MaxWallRunTime NINJAM_Option 20
 

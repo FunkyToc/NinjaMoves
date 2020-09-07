@@ -1,0 +1,1 @@
+playsound minecraft:entity.wolf.step player @a[distance=..8] ~ ~ ~ .6 1 1

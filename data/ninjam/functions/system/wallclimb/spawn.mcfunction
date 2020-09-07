@@ -4,3 +4,4 @@ execute align xyz run summon minecraft:area_effect_cloud ~0.5 ~-0.5 ~0.5 {Tags:[
 scoreboard players operation @e[type=area_effect_cloud,tag=ninjam_climbing_init,sort=nearest,limit=1] NINJAM_Option = MaxHoldTime NINJAM_Option
 tag @e[type=area_effect_cloud,tag=ninjam_climbing_init] remove ninjam_climbing_init
 execute if score ParkourParticules NINJAM_Option matches 1 rotated ~ 0 positioned ^ ^ ^0.3 run function ninjam:system/wallclimb/particule
+execute if score ParkourSounds NINJAM_Option matches 1 rotated ~ 0 positioned ^ ^ ^0.3 run function ninjam:system/wallclimb/sound
