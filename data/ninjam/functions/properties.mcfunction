@@ -37,6 +37,11 @@ scoreboard players set ParkourSounds NINJAM_Option 1
 # 1 : Enable
 scoreboard players set SoftLanding NINJAM_Option 1
 
+# Minimum Airtime
+# Min air time required to roll (ticks)
+# Min-Max : 1 - 80
+scoreboard players set MinAirTime NINJAM_Option 10
+
 
 # Crawl
 # 0 : Disable
