@@ -53,6 +53,7 @@ scoreboard players set Crawl NINJAM_Option 1
 # Min-Max : 1 - 3600
 scoreboard players set MaxShulkerTime NINJAM_Option 60
 
+
 # WallClimb
 # Sneak to grab a corner of wall
 # 0 : Disable
@@ -73,7 +74,7 @@ scoreboard players set WallJump NINJAM_Option 1
 
 # WallJump momentum (ticks)
 # momentum duration to use double jump
-# Min-Max : 1 - 80
+# Min-Max : 1 - 3600
 scoreboard players set MaxWallJumpTime NINJAM_Option 6
 
 
@@ -90,5 +91,5 @@ scoreboard players set MaxWallRunTime NINJAM_Option 20
 
 # WallRun momentum (ticks)
 # momentum duration to use a parallel wall
-# Min-Max : 1 - 80
+# Min-Max : 1 - 3600
 scoreboard players set MaxWallRunReact NINJAM_Option 5
