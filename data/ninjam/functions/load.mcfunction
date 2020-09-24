@@ -18,7 +18,7 @@ execute if score MaxWallRunReact NINJAM_Option matches 3601.. run scoreboard pla
 execute if score MaxWallRunReact NINJAM_Option matches ..0 run scoreboard players set MaxWallRunReact NINJAM_Option 1
 
 # 1.15- warning
-execute if score McVersion fktool matches ..11400 run tellraw @a ["",{"text":"Ninja Moves","bold":true,"color":"gold","hoverEvent":{"action":"show_text","value":"Develop with love by FunkyToc"}},{"text":" can not be enabled ! "},{"text":"Minecraft 1.15+ required !"}]
+execute if score McVersion fktool matches ..11400 run tellraw @a ["",{"text":"Ninja Moves","bold":true,"color":"gold","hoverEvent":{"action":"show_text","value":"Develop with love by FunkyToc"}},{"text":" can not be enabled ! "},{"text":"Minecraft 1.15+ required !","color":"dark_red"}]
 
 # tellraw
 execute if score McVersion fktool matches 11500.. run tellraw @a ["",{"text":"Ninja Moves","bold":true,"color":"gold","hoverEvent":{"action":"show_text","value":"Develop with love by FunkyToc"}},{"text":" enabled ! "},{"text":"More infos on "},{"text":"planetcraft.com","color":"dark_purple","clickEvent":{"action":"open_url","value":"https://www.planetminecraft.com/member/funkytoc/submissions/data-packs/"}}]
