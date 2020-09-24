@@ -1,5 +1,6 @@
 {
 	"values": [
+		"minecraft:barrier",
 		"minecraft:air",
 		"minecraft:cave_air",
 		"minecraft:void_air",
