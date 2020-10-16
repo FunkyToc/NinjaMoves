@@ -1,1 +1,1 @@
-execute if score McVersion fktool matches 11500.. if entity @a run function ninjam:loop
+execute if score McVersion fktool matches 11500.. if entity @a[gamemode=!spectator] run function ninjam:loop
