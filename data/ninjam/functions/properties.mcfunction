@@ -39,8 +39,13 @@ scoreboard players set SoftLanding NINJAM_Option 1
 
 # Minimum Airtime
 # Min air time required to roll (ticks)
-# Min-Max : 1 - 80
-scoreboard players set MinAirTime NINJAM_Option 10
+# Min-Max : 1 - 3600
+scoreboard players set MinAirTime NINJAM_Option 14
+
+# Maximum Airtime
+# Max air time required to roll (ticks)
+# Min-Max : 1 - 3600
+scoreboard players set MaxAirTime NINJAM_Option 80
 
 
 # Crawl
