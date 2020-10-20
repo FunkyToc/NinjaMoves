@@ -1,5 +1,6 @@
 scoreboard objectives add NINJAM_Option dummy {"text":"NINJAM_Option","color":"aqua"}
 scoreboard objectives add NINJAM_Jump dummy {"text":"NINJAM_Jump","color":"aqua"}
+scoreboard objectives add NINJAM_MotionY dummy {"text":"NINJAM_MotionY","color":"aqua"}
 scoreboard objectives add NINJAM_Run dummy {"text":"NINJAM_Run","color":"aqua"}
 
 # properties

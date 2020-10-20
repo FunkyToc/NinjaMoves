@@ -1,5 +1,8 @@
+# Motion
+execute store result score @s NINJAM_MotionY run data get entity @s Motion[1] 100
+
 # ninjam_softlanding
-execute as @s[predicate=fktool:entity/on_air,predicate=fktool:entity/sneaking] if score @s NINJAM_Jump >= MinAirTime NINJAM_Option if score @s NINJAM_Jump <= MaxAirTime NINJAM_Option run function ninjam:system/softlanding/check
+execute as @s[predicate=fktool:entity/on_air,predicate=fktool:entity/sneaking] at @s if score @s NINJAM_MotionY matches -180..-70 run function ninjam:system/softlanding/check
 effect give @s[tag=ninjam_softlandingpro] minecraft:resistance 1 2 true
 effect give @s[tag=ninjam_softlanding] minecraft:resistance 1 0 true
 
