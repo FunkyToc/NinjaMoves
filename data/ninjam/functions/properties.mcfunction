@@ -67,6 +67,11 @@ scoreboard players set MaxHoldTime NINJAM_Option 100
 # 1 : Enable
 scoreboard players set WallJump NINJAM_Option 1
 
+# WallJump max (number)
+# max uses of the face wall jump
+# Min-Max : 1 - 3600
+scoreboard players set MaxWallJump NINJAM_Option 3
+
 # WallJump momentum (ticks)
 # momentum duration to use double jump
 # Min-Max : 1 - 3600

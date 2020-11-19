@@ -1,6 +1,7 @@
 scoreboard objectives add NINJAM_Option dummy {"text":"NINJAM_Option","color":"aqua"}
 scoreboard objectives add NINJAM_Jump dummy {"text":"NINJAM_Jump","color":"aqua"}
 scoreboard objectives add NINJAM_MotionY dummy {"text":"NINJAM_MotionY","color":"aqua"}
+scoreboard objectives add NINJAM_WallJump dummy {"text":"NINJAM_WallJump","color":"aqua"}
 scoreboard objectives add NINJAM_Run dummy {"text":"NINJAM_Run","color":"aqua"}
 
 # properties
@@ -15,6 +16,8 @@ execute if score MaxShulkerTime NINJAM_Option matches 3601.. run scoreboard play
 execute if score MaxShulkerTime NINJAM_Option matches ..0 run scoreboard players set MaxShulkerTime NINJAM_Option 1
 execute if score MaxHoldTime NINJAM_Option matches 3601.. run scoreboard players set MaxHoldTime NINJAM_Option 3600
 execute if score MaxHoldTime NINJAM_Option matches ..0 run scoreboard players set MaxHoldTime NINJAM_Option 1
+execute if score MaxWallJump NINJAM_Option matches 3601.. run scoreboard players set MaxWallJumpTime NINJAM_Option 3600
+execute if score MaxWallJump NINJAM_Option matches ..0 run scoreboard players set MaxWallJumpTime NINJAM_Option 1
 execute if score MaxWallJumpTime NINJAM_Option matches 3601.. run scoreboard players set MaxWallJumpTime NINJAM_Option 3600
 execute if score MaxWallJumpTime NINJAM_Option matches ..0 run scoreboard players set MaxWallJumpTime NINJAM_Option 1
 execute if score MaxWallRunTime NINJAM_Option matches 3601.. run scoreboard players set MaxWallRunTime NINJAM_Option 3600

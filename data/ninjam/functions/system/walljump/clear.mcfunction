@@ -1,0 +1,1 @@
+scoreboard players set @s NINJAM_WallJump 0
