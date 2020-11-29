@@ -9,6 +9,7 @@
 		"minecraft:nether_sprouts",
 		"minecraft:weeping_vines",
 		"minecraft:twisting_vines",
-		"minecraft:soul_torch"
+		"minecraft:soul_torch",
+		"minecraft:soul_wall_torch"
 	]
 }
