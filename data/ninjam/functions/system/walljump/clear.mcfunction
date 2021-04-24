@@ -1,1 +1,1 @@
-scoreboard players set @s NINJAM_WallJump 0
+scoreboard players set @s ninjam.WallJump 0

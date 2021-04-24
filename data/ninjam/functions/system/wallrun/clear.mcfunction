@@ -1,1 +1,1 @@
-scoreboard players set @s NINJAM_Run 0
+scoreboard players set @s ninjam.Run 0

@@ -1,32 +1,31 @@
-scoreboard objectives add NINJAM_Option dummy {"text":"NINJAM_Option","color":"aqua"}
-scoreboard objectives add NINJAM_Jump dummy {"text":"NINJAM_Jump","color":"aqua"}
-scoreboard objectives add NINJAM_MotionY dummy {"text":"NINJAM_MotionY","color":"aqua"}
-scoreboard objectives add NINJAM_WallJump dummy {"text":"NINJAM_WallJump","color":"aqua"}
-scoreboard objectives add NINJAM_Run dummy {"text":"NINJAM_Run","color":"aqua"}
+scoreboard objectives add ninjam.Option dummy {"text":"ninjam.Option","color":"aqua"}
+scoreboard objectives add ninjam.Jump dummy {"text":"ninjam.Jump","color":"aqua"}
+scoreboard objectives add ninjam.MotionY dummy {"text":"ninjam.MotionY","color":"aqua"}
+scoreboard objectives add ninjam.WallJump dummy {"text":"ninjam.WallJump","color":"aqua"}
+scoreboard objectives add ninjam.Run dummy {"text":"ninjam.Run","color":"aqua"}
 
 # properties
 function ninjam:properties
 
 # Secure properties
-execute if score MinAirTime NINJAM_Option matches 3601.. run scoreboard players set MinAirTime NINJAM_Option 3600
-execute if score MinAirTime NINJAM_Option matches ..0 run scoreboard players set MinAirTime NINJAM_Option 1
-execute if score MaxAirTime NINJAM_Option matches 3601.. run scoreboard players set MaxAirTime NINJAM_Option 3600
-execute if score MaxAirTime NINJAM_Option matches ..0 run scoreboard players set MaxAirTime NINJAM_Option 1
-execute if score MaxShulkerTime NINJAM_Option matches 3601.. run scoreboard players set MaxShulkerTime NINJAM_Option 3600
-execute if score MaxShulkerTime NINJAM_Option matches ..0 run scoreboard players set MaxShulkerTime NINJAM_Option 1
-execute if score MaxHoldTime NINJAM_Option matches 3601.. run scoreboard players set MaxHoldTime NINJAM_Option 3600
-execute if score MaxHoldTime NINJAM_Option matches ..0 run scoreboard players set MaxHoldTime NINJAM_Option 1
-execute if score MaxWallJump NINJAM_Option matches 3601.. run scoreboard players set MaxWallJumpTime NINJAM_Option 3600
-execute if score MaxWallJump NINJAM_Option matches ..0 run scoreboard players set MaxWallJumpTime NINJAM_Option 1
-execute if score MaxWallJumpTime NINJAM_Option matches 3601.. run scoreboard players set MaxWallJumpTime NINJAM_Option 3600
-execute if score MaxWallJumpTime NINJAM_Option matches ..0 run scoreboard players set MaxWallJumpTime NINJAM_Option 1
-execute if score MaxWallRunTime NINJAM_Option matches 3601.. run scoreboard players set MaxWallRunTime NINJAM_Option 3600
-execute if score MaxWallRunTime NINJAM_Option matches ..0 run scoreboard players set MaxWallRunTime NINJAM_Option 1
-execute if score MaxWallRunReact NINJAM_Option matches 3601.. run scoreboard players set MaxWallRunReact NINJAM_Option 3600
-execute if score MaxWallRunReact NINJAM_Option matches ..0 run scoreboard players set MaxWallRunReact NINJAM_Option 1
-
-# 1.15- warning
-execute if score McVersion fktool matches ..11400 run tellraw @a ["",{"text":"Ninja Moves","bold":true,"color":"gold","hoverEvent":{"action":"show_text","value":"Develop with love by FunkyToc"}},{"text":" can not be enabled ! "},{"text":"Minecraft 1.15+ required !","color":"dark_red"}]
+execute if score MinAirTime ninjam.Option matches 3601.. run scoreboard players set MinAirTime ninjam.Option 3600
+execute if score MinAirTime ninjam.Option matches ..0 run scoreboard players set MinAirTime ninjam.Option 1
+execute if score MaxAirTime ninjam.Option matches 3601.. run scoreboard players set MaxAirTime ninjam.Option 3600
+execute if score MaxAirTime ninjam.Option matches ..0 run scoreboard players set MaxAirTime ninjam.Option 1
+execute if score MaxShulkerTime ninjam.Option matches 3601.. run scoreboard players set MaxShulkerTime ninjam.Option 3600
+execute if score MaxShulkerTime ninjam.Option matches ..0 run scoreboard players set MaxShulkerTime ninjam.Option 1
+execute if score MaxHoldTime ninjam.Option matches 3601.. run scoreboard players set MaxHoldTime ninjam.Option 3600
+execute if score MaxHoldTime ninjam.Option matches ..0 run scoreboard players set MaxHoldTime ninjam.Option 1
+execute if score MaxWallJump ninjam.Option matches 3601.. run scoreboard players set MaxWallJumpTime ninjam.Option 3600
+execute if score MaxWallJump ninjam.Option matches ..0 run scoreboard players set MaxWallJumpTime ninjam.Option 1
+execute if score MaxWallJumpTime ninjam.Option matches 3601.. run scoreboard players set MaxWallJumpTime ninjam.Option 3600
+execute if score MaxWallJumpTime ninjam.Option matches ..0 run scoreboard players set MaxWallJumpTime ninjam.Option 1
+execute if score MaxWallRunTime ninjam.Option matches 3601.. run scoreboard players set MaxWallRunTime ninjam.Option 3600
+execute if score MaxWallRunTime ninjam.Option matches ..0 run scoreboard players set MaxWallRunTime ninjam.Option 1
+execute if score MaxWallRunReact ninjam.Option matches 3601.. run scoreboard players set MaxWallRunReact ninjam.Option 3600
+execute if score MaxWallRunReact ninjam.Option matches ..0 run scoreboard players set MaxWallRunReact ninjam.Option 1
 
 # tellraw
-execute if score McVersion fktool matches 11500.. run tellraw @a ["",{"text":"Ninja Moves","bold":true,"color":"gold","hoverEvent":{"action":"show_text","value":"Develop with love by FunkyToc"}},{"text":" enabled ! "},{"text":"More infos on "},{"text":"planetminecraft.com","color":"dark_purple","clickEvent":{"action":"open_url","value":"https://www.planetminecraft.com/member/funkytoc/submissions/data-packs/"}}]
+execute if score McVersion fktool matches 11500.. run tellraw @a ["",{"text":"[Ninja Moves]","bold":true,"color":"gold","hoverEvent":{"action":"show_text","value":"Develop with love by FunkyToc"}},{"text":" enabled ! "},{"text":"More infos on "},{"text":"planetminecraft.com","color":"dark_purple","clickEvent":{"action":"open_url","value":"https://www.planetminecraft.com/member/funkytoc/submissions/data-packs/"}}]
+execute if score McVersion fktool matches ..11499 run tellraw @a ["",{"text":"[Ninja Moves]","bold":true,"color":"gold"},{"text":" Version 1.14 or inferior detected !","color":"red"}]
+execute if score McVersion fktool matches ..11499 run tellraw @a ["",{"text":"[Ninja Moves]","bold":true,"color":"gold"},{"text":" This datapack needs 1.15 at least.","color":"red"}]

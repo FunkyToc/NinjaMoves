@@ -1,4 +1,4 @@
-execute if entity @s[predicate=fktool:entity/sneaking,x_rotation=20..70] unless entity @e[type=minecraft:shulker,tag=ninjam_crawling,distance=..1.65] run function ninjam:system/crawl/check
-execute as @e[type=minecraft:shulker,tag=ninjam_crawling,distance=..5] at @s unless entity @a[distance=..1.65] run function ninjam:system/crawl/despawn
-execute as @e[type=minecraft:shulker,tag=ninjam_crawling,distance=..5,scores={NINJAM_Option=0}] at @s run function ninjam:system/crawl/despawn
-scoreboard players remove @e[type=minecraft:shulker,tag=ninjam_crawling,scores={NINJAM_Option=1..},distance=..1.65] NINJAM_Option 1
+execute if entity @s[predicate=fktool:entity/sneaking,x_rotation=20..70] unless entity @e[type=minecraft:shulker,tag=ninjam.crawling,distance=..1.65] run function ninjam:system/crawl/check
+execute as @e[type=minecraft:shulker,tag=ninjam.crawling,distance=..5] at @s unless entity @a[distance=..1.65] run function ninjam:system/crawl/despawn
+execute as @e[type=minecraft:shulker,tag=ninjam.crawling,distance=..5,scores={ninjam.Option=0}] at @s run function ninjam:system/crawl/despawn
+scoreboard players remove @e[type=minecraft:shulker,tag=ninjam.crawling,scores={ninjam.Option=1..},distance=..1.65] ninjam.Option 1
