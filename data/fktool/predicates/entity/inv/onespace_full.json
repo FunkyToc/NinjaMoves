@@ -1,0 +1,17 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "fktool:entity/inv/onespace_armor"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "fktool:entity/inv/onespace_hotbar"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "fktool:entity/inv/onespace_inv"
+    }
+  ]
+}

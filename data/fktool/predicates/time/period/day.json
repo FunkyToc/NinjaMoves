@@ -1,0 +1,13 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "fktool:time/period/morning"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "fktool:time/period/afternoon"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "condition": "minecraft:reference",
+    "name": "fktool:entity/in_water_feet"
+  },
+  {
+    "condition": "minecraft:reference",
+    "name": "fktool:entity/in_water_eye"
+  }
+]

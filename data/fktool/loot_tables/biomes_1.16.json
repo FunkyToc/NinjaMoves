@@ -1189,6 +1189,21 @@
 									"tag": "{BiomeID:173}"
 								}
 							]
+						}, {
+							"conditions": [{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"biome": "minecraft:dripstone_caves"
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:golden_hoe",
+							"functions": [{
+									"function": "minecraft:set_nbt",
+									"tag": "{BiomeID:174}"
+								}
+							]
 						}
 					]
 				}

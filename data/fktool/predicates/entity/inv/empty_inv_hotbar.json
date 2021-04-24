@@ -1,0 +1,13 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "fktool:entity/inv/empty_hotbar"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "fktool:entity/inv/empty_inv"
+    }
+  ]
+}
