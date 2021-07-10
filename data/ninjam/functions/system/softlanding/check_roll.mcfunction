@@ -1,3 +1,2 @@
-execute if score McVersion fktool matches 11500 at @s unless block ~ ~ ~ #ninjam:softlanding/rollable_1.15 run function ninjam:system/softlanding/clear
 execute if score McVersion fktool matches 11600..11602 at @s unless block ~ ~ ~ #ninjam:softlanding/rollable_1.16 run function ninjam:system/softlanding/clear
 execute if score McVersion fktool matches 11700.. at @s unless block ~ ~ ~ #ninjam:softlanding/rollable_1.17 run function ninjam:system/softlanding/clear
