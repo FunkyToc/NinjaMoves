@@ -1,5 +1,5 @@
 execute if entity @s[predicate=fktool:entity/sprinting,predicate=fktool:entity/on_air,predicate=!fktool:entity/sneaking] unless entity @e[type=minecraft:area_effect_cloud,tag=ninjam.jumping,distance=..1] if score @s ninjam.WallJump <= MaxWallJump ninjam.Option run function ninjam:system/walljump/check
 execute as @e[type=area_effect_cloud,tag=ninjam.jumping] at @s unless entity @p[distance=..1] run function ninjam:system/walljump/despawn
-execute as @e[type=area_effect_cloud,tag=ninjam.jumping,scores={ninjam.Option=0}] at @s run function ninjam:system/walljump/despawn
-scoreboard players remove @e[type=area_effect_cloud,tag=ninjam.jumping,scores={ninjam.Option=1..},distance=..1] ninjam.Option 1
+execute as @e[type=area_effect_cloud,tag=ninjam.jumping,scores={ninjam.Jump=0}] at @s run function ninjam:system/walljump/despawn
+scoreboard players remove @e[type=area_effect_cloud,tag=ninjam.jumping,scores={ninjam.Jump=1..},distance=..1] ninjam.Jump 1
 execute as @s[predicate=fktool:entity/on_ground] unless block ~ ~-1 ~ minecraft:barrier unless block ~ ~-1.4 ~ minecraft:barrier unless entity @e[type=minecraft:area_effect_cloud,tag=ninjam.jumping,distance=..1.1] unless entity @e[type=minecraft:area_effect_cloud,tag=ninjam.running,distance=..1.1] run function ninjam:system/walljump/clear
