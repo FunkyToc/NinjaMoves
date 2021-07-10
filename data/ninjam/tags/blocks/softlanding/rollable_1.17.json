@@ -1,0 +1,20 @@
+{
+	"values": [
+		"#ninjam:softlanding/rollable_1.16",
+		"#minecraft:candles",
+		"#minecraft:pressure_plates",
+		"#minecraft:cave_vines",
+		"#minecraft:snow",
+		"minecraft:glow_lichen",
+		"minecraft:moss_carpet",
+		"minecraft:hanging_roots",
+		"minecraft:lightning_rod",
+		"minecraft:spore_blossom",
+		"minecraft:small_amethyst_bud",
+		"minecraft:medium_amethyst_bud",
+		"minecraft:large_amethyst_bud",
+		"minecraft:amethyst_cluster",
+		"minecraft:small_dripleaf",
+		"minecraft:big_dripleaf"
+	]
+}
