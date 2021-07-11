@@ -1,0 +1,1 @@
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags:["ninjam.walljump.entity","ninjam.walljump.entity.init"],Duration:3601}

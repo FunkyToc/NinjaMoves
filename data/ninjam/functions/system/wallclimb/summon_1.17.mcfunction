@@ -1,0 +1,1 @@
+summon minecraft:marker ~ ~ ~ {Tags:["ninjam.wallclimb.entity","ninjam.climbing.init"],Duration:3601}

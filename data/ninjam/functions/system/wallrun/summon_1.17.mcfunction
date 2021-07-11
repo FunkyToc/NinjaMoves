@@ -1,0 +1,1 @@
+summon minecraft:marker ~ ~ ~ {Tags:["ninjam.wallrun.entity","ninjam.wallrun.entity.init"],Duration:3601}
