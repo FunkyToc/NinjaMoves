@@ -3,6 +3,6 @@
   "entity": "this",
   "predicate": {
     "type": "minecraft:area_effect_cloud",
-    "nbt": "{Tags:[\"ninjam.climbing.entity\"]}"
+    "nbt": "{Tags:[\"ninjam.wallclimb.entity\"]}"
   }
 }
