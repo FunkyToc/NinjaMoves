@@ -1,0 +1,6 @@
+[
+  {
+    "condition": "minecraft:reference",
+    "name": "fktool:entity/sneaking"
+  }
+]
