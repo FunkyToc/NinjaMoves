@@ -5,6 +5,10 @@ execute positioned ^ ^-.77 ^-.25 run summon minecraft:area_effect_cloud ~ ~ ~ {D
 scoreboard players operation @e[predicate=ninjam:crawl/entity,tag=ninjam.crawl.entity.init,sort=nearest,limit=1] ninjam.Jump = MaxShulkerTime ninjam.Option
 tag @e[predicate=ninjam:crawl/entity,tag=ninjam.crawl.entity.init] remove ninjam.crawl.entity.init
 
+# slip
 function ninjam:system/smoothlanding/roolclear
 execute at @s run function ninjam:system/crawl/slip
 schedule function ninjam:system/crawl/slip_clear 15t
+
+# reset run timer
+scoreboard players set @s ninjam.Run 0

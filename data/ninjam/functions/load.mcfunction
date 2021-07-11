@@ -4,7 +4,6 @@ scoreboard objectives add ninjam.MotionY dummy {"text":"ninjam.MotionY","color":
 scoreboard objectives add ninjam.WallJump dummy {"text":"ninjam.WallJump","color":"aqua"}
 scoreboard objectives add ninjam.Run dummy {"text":"ninjam.Run","color":"aqua"}
 
-# properties
 function ninjam:properties
 
 # tellraw
