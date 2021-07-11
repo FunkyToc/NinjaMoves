@@ -1,0 +1,20 @@
+[
+  {
+    "condition": "minecraft:reference",
+    "name": "fktool:entity/on_air"
+  },
+  {
+    "condition": "minecraft:reference",
+    "name": "fktool:entity/sneaking"
+  },
+  {
+    "condition": "minecraft:entity_scores",
+    "entity": "this",
+    "scores": {
+      "ninjam.MotionY": {
+        "min": -180,
+        "max": -70
+      }
+    }
+  }
+]

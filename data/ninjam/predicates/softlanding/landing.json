@@ -1,0 +1,13 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "ninjam:softlanding/normal"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "ninjam:softlanding/pro"
+    }
+  ]
+}
