@@ -1,0 +1,18 @@
+[
+  {
+    "condition": "minecraft:reference",
+    "name": "fktool:entity/on_ground"
+  },
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:location_check",
+      "offsetY": -1,
+      "predicate": {
+        "block": {
+          "tag": "ninjam:barrier"
+        }
+      }
+    }
+  }
+]

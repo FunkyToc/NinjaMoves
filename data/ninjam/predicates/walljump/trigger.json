@@ -1,0 +1,17 @@
+[
+  {
+    "condition": "minecraft:reference",
+    "name": "fktool:entity/sprinting"
+  },
+  {
+    "condition": "minecraft:reference",
+    "name": "fktool:entity/on_air"
+  },
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:reference",
+      "name": "fktool:entity/sneaking"
+    }
+  }
+]
