@@ -1,2 +1,2 @@
-effect clear @a[tag=ninjam.crawling] minecraft:speed
-tag @a[tag=ninjam.crawling] remove ninjam.crawling
+effect clear @a[predicate=ninjam:crawl/player] minecraft:speed
+tag @a[predicate=ninjam:crawl/player] remove ninjam.crawl.player

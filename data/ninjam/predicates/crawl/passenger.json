@@ -3,6 +3,6 @@
   "entity": "this",
   "predicate": {
     "type": "minecraft:shulker",
-    "nbt": "{Tags:[\"ninjam.crawling.entity\"]}"
+    "nbt": "{Tags:[\"ninjam.crawl.entity\"]}"
   }
 }

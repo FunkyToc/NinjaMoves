@@ -1,2 +1,1 @@
 execute if entity @s[predicate=fktool:entity/sneaking,x_rotation=20..70] unless entity @e[predicate=ninjam:crawl/entity,distance=..1.3] run function ninjam:system/crawl/check
-execute as @e[predicate=ninjam:crawl/entity,distance=..5] at @s run function ninjam:system/crawl/despawn
