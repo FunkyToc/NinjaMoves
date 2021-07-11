@@ -1,0 +1,2 @@
+execute as @s[predicate=ninjam:wallrun/trigger] if score @s ninjam.Run < MaxWallRunTime ninjam.Option run function ninjam:system/wallrun/check
+execute as @s[predicate=fktool:entity/on_ground,scores={ninjam.Jump=1..}] unless block ~ ~-1 ~ minecraft:barrier run function ninjam:system/wallrun/clear
