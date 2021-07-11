@@ -75,7 +75,7 @@ execute unless score MaxWallJump ninjam.Option matches 0.. run scoreboard player
 # WallJump momentum duration (ticks)
 # momentum duration to use double jump
 # Min-Max : 1 - 3600
-execute unless score MaxWallJumpTime ninjam.Option matches 0.. run scoreboard players set MaxWallJumpTime ninjam.Option 6
+execute unless score MaxWallJumpReact ninjam.Option matches 0.. run scoreboard players set MaxWallJumpReact ninjam.Option 6
 
 
 # WallRun system

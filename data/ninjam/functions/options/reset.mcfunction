@@ -8,7 +8,7 @@ scoreboard players set WallClimb ninjam.Option 1
 scoreboard players set MaxHoldTime ninjam.Option 100
 scoreboard players set WallJump ninjam.Option 1
 scoreboard players set MaxWallJump ninjam.Option 3
-scoreboard players set MaxWallJumpTime ninjam.Option 6
+scoreboard players set MaxWallJumpReact ninjam.Option 6
 scoreboard players set WallRun ninjam.Option 1
 scoreboard players set MaxWallRunTime ninjam.Option 20
 scoreboard players set MaxWallRunReact ninjam.Option 5
